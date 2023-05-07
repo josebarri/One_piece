@@ -9,12 +9,10 @@
         >
           (悪魔の実, Akuma no Mi)
         </h1>
-        <div class="py-8 mx-60 relative">
+        <div class="flex justify-center">
           <img
-            class="h-auto max-w-full transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            class="h-56 md:h-2/4 w-full md:w-2/4 object-cover transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
             src="https://img.asmedia.epimg.net/resizer/lgXqFLdCvnaxnuUb3Jxkl6WK9h4=/1472x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/B2PWCJEBKBLFNGRV7KC3DLTMXE.jpg"
-            height=""
-            width="800"
             alt="image description"
           />
 

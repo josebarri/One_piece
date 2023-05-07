@@ -10,7 +10,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-9 m-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-9 m-10">
       <div
         class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
@@ -18,7 +18,6 @@ onMounted(() => {
           <img
             class="rounded-t-lg"
             src="https://i2.wp.com/www.senpai.com.mx/wp-content/uploads/2020/05/Fan-de-One-Piece-_imprime_-la-fruta-del-diablo-de-Ace.jpg?fit=1280%2C720&ssl=1"
-            
             alt=""
           />
         </a>
@@ -54,7 +53,7 @@ onMounted(() => {
         </div>
       </div>
       <div
-        class="max-w-sm   bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="#">
           <img
@@ -62,7 +61,6 @@ onMounted(() => {
             src="https://anime.atsit.in/es/wp-content/uploads/2022/07/las-25-frutas-del-diablo-mas-fuertes-de-one-piece-clasificadas-18.png"
             width="698"
             height="392"
-            
             alt=""
           />
         </a>

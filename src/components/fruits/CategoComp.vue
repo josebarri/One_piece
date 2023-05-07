@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <div class="block space-y-4 md:flex md:space-y-0 md:space-x-10 ps-96">
+    <div class="flex justify-evenly gap-4 flex-wrap sm:flex-nowrap md:space-x-10 px-12">
       <button
         data-modal-target="Paramecia"
         data-modal-toggle="Paramecia"
@@ -299,13 +299,26 @@
           <!-- Modal body -->
           <div class="p-6 space-y-6">
             <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                Los poderes que otorgan las frutas del diablo raramente pueden "despertar" (覚醒, kakusei ?) incrementando así las habilidades de su consumidor. Los detalles sobre cómo podrían ser despertados las habilidades aún no se conocen, pero se ha visto que aumentan significativamente el poder del consumidor y dan nuevas habilidades. El efecto del despertar parece depender del tipo de fruta del diablo.
+              Los poderes que otorgan las frutas del diablo raramente pueden "despertar" (覚醒,
+              kakusei ?) incrementando así las habilidades de su consumidor. Los detalles sobre cómo
+              podrían ser despertados las habilidades aún no se conocen, pero se ha visto que
+              aumentan significativamente el poder del consumidor y dan nuevas habilidades. El
+              efecto del despertar parece depender del tipo de fruta del diablo.
 
-                 <br>
-                      Para las habilidades de tipo zoan, el despertar les otorga transformaciones más grandes que otras zoan, además ganan fuerza física y resistencia, así como un tiempo de recuperación más corto.
+              <br />
+              Para las habilidades de tipo zoan, el despertar les otorga transformaciones más
+              grandes que otras zoan, además ganan fuerza física y resistencia, así como un tiempo
+              de recuperación más corto.
             </p>
             <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                Para las habilidades de tipo paramecia, el despertar permite que la habilidad que otorga una fruta del diablo se pueda expandir al entorno del consumidor, haciendo que éste pueda manipular y deformar dicho entorno a voluntad. La diferencia principal entre los poderes despertados y las frutas del diablo que afectan al entorno es que no se requiere un contacto directo con el entorno y éste puede ser modificado por el consumidor con sólo su pensamiento. Aun así, no todas las paramecia tienen el mismo despertar, habiendo casos en los que simplemente de aumenta drásticamente su rango de efecto.
+              Para las habilidades de tipo paramecia, el despertar permite que la habilidad que
+              otorga una fruta del diablo se pueda expandir al entorno del consumidor, haciendo que
+              éste pueda manipular y deformar dicho entorno a voluntad. La diferencia principal
+              entre los poderes despertados y las frutas del diablo que afectan al entorno es que no
+              se requiere un contacto directo con el entorno y éste puede ser modificado por el
+              consumidor con sólo su pensamiento. Aun así, no todas las paramecia tienen el mismo
+              despertar, habiendo casos en los que simplemente de aumenta drásticamente su rango de
+              efecto.
             </p>
           </div>
           <!-- Modal footer -->
