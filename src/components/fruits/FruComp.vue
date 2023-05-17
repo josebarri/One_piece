@@ -24,7 +24,7 @@ onMounted(() => {
       
       <div
       v-for="item in items"
-      :key="item.id" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      :key="item.id" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="#">
           <img
