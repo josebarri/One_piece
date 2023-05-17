@@ -36,7 +36,11 @@
       >
         Despertar
       </button>
+      
     </div>
+   
+    <ul class="flex  border-b-8 border-gray-200 dark:border-gray-700 mt-10 "></ul>
+
 
     <!-- Small Modal -->
 
@@ -53,9 +57,9 @@
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
           <!-- Modal header -->
           <div
-            class="flex items-center justify-between p-5 border-b rounded-t dark:border-gray-600"
+            class="flex items-center justify-between p-5 border-b rounded-t bg-blue-700 dark:border-gray-600"
           >
-            <h3 class="text-xl font-medium text-gray-900 dark:text-white">Paramecia</h3>
+            <h3 class="text-xl font-medium text-gray-100 dark:text-white">Paramecia</h3>
             <button
               type="button"
               class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
@@ -342,6 +346,7 @@
           </div>
         </div>
       </div>
+      
     </div>
     <!-- Extra Large Modal -->
   </div>

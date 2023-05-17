@@ -32,10 +32,10 @@ onMounted(() => {
               </h2>
               <ul class="text-gray-600 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                  <a href="https://api-onepiece.com/" class="hover:underline">Api one Piece</a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                  <a href="https://mangaplus.shueisha.co.jp/titles/200016/" class="hover:underline">Manga Plus</a>
                 </li>
               </ul>
             </div>
@@ -50,7 +50,7 @@ onMounted(() => {
                   >
                 </li>
                 <li>
-                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                  <a href="https://onepiece.fandom.com/es/wiki/One_Piece_Wiki" class="hover:underline">One_Piece_Wiki</a>
                 </li>
               </ul>
             </div>
