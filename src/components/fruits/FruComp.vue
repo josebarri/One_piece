@@ -2,72 +2,119 @@
 import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
 
-
-
 // initialize components based on data attribute selectors
 onMounted(() => {
   initFlowbite()
 })
-
-
-
 </script>
 
 <template>
   <div>
     <div class="justify-center mt-10">
-      
-      <h5 class="mb-4 text-1xl text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-2xl lg:text-3xlxl dark:text-white">Todas las Frutas</h5>
-
-        </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-9 m-10">
-      
+      <h5
+        class="mb-4 text-1xl text-center font-extrabold tracking-tight leading-none text-gray-900 md:text-2xl lg:text-3xlxl dark:text-white"
+      >
+        Todas las Frutas
+      </h5>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-9 m-10">
       <div
-      v-for="item in items"
-      :key="item.id" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700"
+        v-for="item in items"
+        :key="item.id"
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="#">
           <img
             class="rounded-t-lg h-56 object-contain"
-            :src="'https://images.api-onepiece.com/fruits/' + item.filename"
+            :src="item.filename"
             width="698"
             height="392"
-            :alt="item.filename"
           />
         </a>
         <div class="p-5">
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+              {{ item.name }}
             </h5>
           </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse
-            chronological order.
+          <p
+            class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden"
+            style="max-height: 7em; line-height: 1.5em"
+          >
+            {{ item.description }}
           </p>
           <a
-            href="#"
             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Read more
+            >{{ item.type }}
+
             <svg
               aria-hidden="true"
               class="w-4 h-4 ml-2 -mr-1"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
+            ></svg>
           </a>
         </div>
       </div>
-      
     </div>
+  </div>
+
+  <div class="flex justify-center mt-4">
+    <nav aria-label="Page navigation example">
+      <ul class="inline-flex -space-x-px text-sm">
+        <li>
+          <a
+            href="#"
+            class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >Previous</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >1</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >2</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            aria-current="page"
+            class="flex items-center justify-center px-3 h-8 text-blue-600 border border-gray-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+            >3</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >4</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >5</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >Next</a
+          >
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 <script>
@@ -79,34 +126,25 @@ export default {
   data() {
     return {
       items: [],
-      urlImage: {},
+      
+      
+    
     }
   },
+
   mounted() {
+
+    
     const api = import.meta.env.VITE_BASE_URL
 
-    const apiCharacter = api + 'fruits'
+    const apiCharacter = api + 'v2/fruits/fr'
 
     fetch(apiCharacter)
       .then((response) => response.json())
       .then((data) => (this.items = data))
-    // .then((data) => console.log(data))
+       
+      //.then((data) => console.log(data))
 
-    for (let index = 0; index < this.items.length; index++) {
-      console.log(this.item.filename)
-    }
-
-    const apiPicture = api + 'fruits/picture/5665e89442022d4c0e7684c650dc6d6b.png'
-
-    fetch(apiPicture)
-      .then((responseP) => responseP.json())
-      .then((dataP) => (this.urlImage = dataP))
-    // .then((data) => console.log(data))
-  },
-  setup() {
-    return {
-      modules: [Navigation]
-    }
   }
 }
 </script>

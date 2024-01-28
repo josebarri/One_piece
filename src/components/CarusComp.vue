@@ -10,8 +10,7 @@ onMounted(() => {
 <template>
   <div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-9 m-10 -mt">
-      <div
-        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="" class="flex justify-center mt-3">
           <img
@@ -97,6 +96,7 @@ onMounted(() => {
           </a>
         </div>
       </div>
+
       <div
         class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
       >
@@ -140,6 +140,7 @@ onMounted(() => {
           </a>
         </div>
       </div>
+    
     </div>
   </div>
 </template>

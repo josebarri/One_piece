@@ -95,6 +95,7 @@ onMounted(() => {
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
           >One-piece</span
         >
+        
       </a>
       <button
         id="mega-menu-full-image-button"
