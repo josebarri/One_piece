@@ -10,6 +10,7 @@ onMounted(() => {
 
 <template>
   <div>
+    <ul class="flex border-b-4 border-gray-200 dark:border-gray-700"></ul>
     <footer class="bg-white dark:bg-gray-900 ">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
